@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">first commit {{ msg }}</div>
+  <div class="hello">develop {{ msg }}</div>
 </template>
 
 <script>
