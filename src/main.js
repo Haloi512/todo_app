@@ -19,14 +19,14 @@ const store = createStore({
     tableData: [],
   },
   mutations: {
-    addData(state, payload) {
-      state.tableData = state.tableData.push(payload);
-    },
+    // addData(state, payload) {
+    //   state.tableData = state.tableData.push(payload);
+    // },
   },
   actions: {
-    createDataRequested(context) {
-      context.commit("addData");
-    },
+    // createDataRequested(context) {
+    //   context.commit("addData");
+    // },
   },
 });
 
