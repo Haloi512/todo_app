@@ -129,8 +129,8 @@ export default {
                 this.handleClose();
                 this.name = "";
                 this.description = "";
-                this.$store.commit("addData", res);
-                // this.$emit("handleRefesh");
+                // this.$store.commit("addData", res);
+                this.$emit("handleRefesh");
               }
             })
             .catch((err) => {
