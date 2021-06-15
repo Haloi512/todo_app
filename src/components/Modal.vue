@@ -130,7 +130,7 @@ export default {
                 this.name = "";
                 this.description = "";
                 this.$store.commit("addData", res);
-                this.$emit("handleRefesh");
+                // this.$emit("handleRefesh");
               }
             })
             .catch((err) => {
